@@ -20,10 +20,12 @@
             <div class="hidden md:flex space-x-6 text-sm font-medium text-slate-300">
                 <a href="#about" class="hover:text-sky-400 transition">About</a>
                 <a href="#research" class="hover:text-sky-400 transition">Research Focus</a>
+                <a href="#teaching" class="hover:text-sky-400 transition">Teaching</a>
+                <a href="#stakeholders" class="hover:text-sky-400 transition">Industry & Stakeholders</a>
                 <a href="#tech-stack" class="hover:text-sky-400 transition">Skills & Stack</a>
                 <a href="#software" class="hover:text-sky-400 transition">Tools & Software</a>
                 <a href="#publications" class="hover:text-sky-400 transition">Publications</a>
-                <a href="#outreach" class="hover:text-sky-400 transition">Media & Outreach</a>
+                <a href="#outreach" class="hover:text-sky-400 transition">Media</a>
                 <a href="#contact" class="hover:text-sky-400 transition">Contact</a>
             </div>
         </div>
@@ -42,7 +44,7 @@
                     Deciphering Trace Gases, Interstellar Spectroscopy & Complex Data
                 </h1>
                 <p class="text-slate-300 text-lg">
-                    Researcher at <strong>Radboud University</strong> specializing in high-sensitivity trace gas detection for breath analysis, light scattering spectroscopy, infrared astrochemistry, James Webb Space Telescope (JWST) data pipelines, and biomedical signal processing.
+                    Astrophysicist and data scientist specializing in high-sensitivity trace gas detection, FTIR breath analysis, infrared space spectroscopy (JWST), and deep learning models for high-dimensional scientific and biomedical datasets.
                 </p>
                 
                 <!-- External Profile Badges -->
@@ -60,7 +62,7 @@
 
                 <div class="pt-4 flex flex-wrap items-center gap-6 text-sm text-slate-400 border-t border-slate-800">
                     <span><i class="fas fa-university text-sky-400 mr-2"></i>Radboud University & Leiden Observatory</span>
-                    <span><i class="fas fa-map-marker-alt text-sky-400 mr-2"></i>The Netherlands (Dutch Permanent Resident)</span>
+                    <span><i class="fas fa-map-marker-alt text-sky-400 mr-2"></i>The Netherlands (Permanent Resident)</span>
                 </div>
             </div>
 
@@ -86,19 +88,19 @@
         <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             <div>
                 <p class="text-3xl font-extrabold text-sky-400">60+</p>
-                <p class="text-xs text-slate-400 mt-1">Refereed Journal Articles</p>
+                <p class="text-xs text-slate-400 mt-1">Refereed Publications & Contributions</p>
+            </div>
+            <div>
+                <p class="text-3xl font-extrabold text-sky-400">JWST</p>
+                <p class="text-xs text-slate-400 mt-1">FTIR and ML</p>
             </div>
             <div>
                 <p class="text-3xl font-extrabold text-sky-400">Trace Gas</p>
                 <p class="text-xs text-slate-400 mt-1">Breath Analysis & Scattering</p>
             </div>
             <div>
-                <p class="text-3xl font-extrabold text-sky-400">JWST</p>
-                <p class="text-xs text-slate-400 mt-1">Ice Age & JOYS Programs</p>
-            </div>
-            <div>
                 <p class="text-3xl font-extrabold text-sky-400">LIDA & ENIIGMA</p>
-                <p class="text-xs text-slate-400 mt-1">Molecular Open Tools</p>
+                <p class="text-xs text-slate-400 mt-1">Scientific Software & Platforms</p>
             </div>
         </div>
     </section>
@@ -106,141 +108,224 @@
     <!-- Academic Research Focus Section -->
     <section id="research" class="py-16 px-6 max-w-6xl mx-auto">
         <div class="mb-10">
-            <h2 class="text-3xl font-bold text-white mb-2"><i class="fas fa-microscope text-sky-400 mr-2"></i>Current Research Focus</h2>
-            <p class="text-slate-400">Bridging molecular physics, light-matter interaction, and data science for medical diagnostics and astrophysics.</p>
+            <h2 class="text-3xl font-bold text-white mb-2"><i class="fas fa-microscope text-sky-400 mr-2"></i>Research Focus & Technical Expertise</h2>
+            <p class="text-slate-400">Bridging experimental molecular physics, space missions, optical sensing, light scattering, and physics-informed machine learning.</p>
         </div>
 
-        <div class="grid md:grid-cols-3 gap-6">
+        <div class="grid md:grid-cols-4 gap-6">
             
-            <!-- Trace Gas & Breath Analysis -->
+            <!-- Breath Analysis & Biomarkers -->
             <div class="bg-slate-800 border border-slate-700/60 p-6 rounded-xl space-y-3">
-                <div class="text-amber-400 font-bold text-lg"><i class="fas fa-wind mr-2"></i>Trace Gas & Breath Analysis</div>
+                <div class="text-amber-400 font-bold text-lg"><i class="fas fa-wind mr-2"></i>Breath Analysis</div>
                 <p class="text-sm text-slate-300">
-                    Developing high-precision spectroscopic and signal analysis techniques for trace gas detection. Applying molecular sensing algorithms to exhaled breath analysis for non-invasive biomedical diagnostics and volatile organic compound (VOC) profiling.
+                    Built end-to-end multi-species deep learning pipelines for breath biomarker quantification from FTIR spectroscopy, improving correlation with mass spectrometry from $r=-0.04$ to $r=+0.94$.
                 </p>
             </div>
 
-            <!-- Light Scattering & Molecular Physics -->
+            <!-- Optical Sensing & Light Scattering -->
             <div class="bg-slate-800 border border-slate-700/60 p-6 rounded-xl space-y-3">
-                <div class="text-sky-400 font-bold text-lg"><i class="fas fa-sun mr-2"></i>Light Scattering & Spectroscopy</div>
+                <div class="text-cyan-400 font-bold text-lg"><i class="fas fa-lightbulb mr-2"></i>Light Scattering & Sensing</div>
                 <p class="text-sm text-slate-300">
-                    Modeling trace gas detection derived from light scattering dynamics. Calculating optical constants ($n, k$) and complex refractive index profiles to interpret light-matter interactions in both laboratory environments and astronomical atmospheres.
+                    Utilized broadband infrared IDFG sources to analyze light-scattering profiles across complex surfaces and developed physics-oriented models for light-scattering simulation and path-integrated trace gas absorption.
                 </p>
             </div>
 
-            <!-- Astrochemistry & Space Science -->
+            <!-- Space Sciences & JWST -->
             <div class="bg-slate-800 border border-slate-700/60 p-6 rounded-xl space-y-3">
-                <div class="text-emerald-400 font-bold text-lg"><i class="fas fa-satellite mr-2"></i>Astrochemistry & JWST</div>
+                <div class="text-sky-400 font-bold text-lg"><i class="fas fa-satellite mr-2"></i>Space Sciences & JWST</div>
                 <p class="text-sm text-slate-300">
-                    Analyzing infrared spectra from the James Webb Space Telescope (JWST Ice Age & JOYS+ programs) to map icy complex organic molecules (COMs) and protostellar environments.
+                    Lead researcher on James Webb Space Telescope programs (>300 hours across JOYS, ICE AGE, HEFE, NAOMY-J) targeting molecular hyperspectral data to unveil complex organic molecules in space.
+                </p>
+            </div>
+
+            <!-- Biomedical ML Pipelines -->
+            <div class="bg-slate-800 border border-slate-700/60 p-6 rounded-xl space-y-3">
+                <div class="text-emerald-400 font-bold text-lg"><i class="fas fa-brain mr-2"></i>Biomedical Data Science</div>
+                <p class="text-sm text-slate-300">
+                    Delivered PyTorch deep learning architectures (U-Net and attention-based models) for anomaly detection in brain-MRI data reaching 95% precision, alongside attention-enhanced U-Nets for baseline estimation.
                 </p>
             </div>
 
         </div>
     </section>
 
-    <!-- Technical & Molecular Science Stack -->
+    <!-- Teaching Section -->
+    <section id="teaching" class="py-16 px-6 bg-slate-800/30 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto">
+            <div class="mb-10">
+                <h2 class="text-3xl font-bold text-white mb-2"><i class="fas fa-chalkboard-teacher text-sky-400 mr-2"></i>Teaching Experience</h2>
+                <p class="text-slate-400">Formal university courses taught across international institutions.</p>
+            </div>
+
+            <div class="bg-slate-800 border border-slate-700/60 p-6 rounded-xl">
+                <ul class="grid md:grid-cols-2 gap-4 text-sm text-slate-300">
+                    <li class="p-3 bg-slate-900/50 rounded-lg border border-slate-700/40"><strong>Space Mission</strong> — University of Leiden <span class="text-slate-400 block text-xs mt-1">November–February (2022, 2023, 2024)</span></li>
+                    <li class="p-3 bg-slate-900/50 rounded-lg border border-slate-700/40"><strong>Theoretical Astrophysics</strong> — University of Copenhagen <span class="text-slate-400 block text-xs mt-1">October 2019</span></li>
+                    <li class="p-3 bg-slate-900/50 rounded-lg border border-slate-700/40"><strong>The Physics of Nebulae and Stars 2 (AS4012)</strong> — University of St. Andrews <span class="text-slate-400 block text-xs mt-1">February–June 2018</span></li>
+                    <li class="p-3 bg-slate-900/50 rounded-lg border border-slate-700/40"><strong>Physics 1A (PH1011)</strong> — University of St. Andrews <span class="text-slate-400 block text-xs mt-1">September–November 2017</span></li>
+                    <li class="p-3 bg-slate-900/50 rounded-lg border border-slate-700/40"><strong>Basic Physics</strong> — Universidade do Vale do Paraíba, Brazil <span class="text-slate-400 block text-xs mt-1">June–December 2014</span></li>
+                    <li class="p-3 bg-slate-900/50 rounded-lg border border-slate-700/40"><strong>Laboratory Physics</strong> — Universidade Federal de Itajubá, Brazil <span class="text-slate-400 block text-xs mt-1">June–December 2011</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industry Collaborations & Stakeholder Projects -->
+    <section id="stakeholders" class="py-16 px-6 max-w-6xl mx-auto">
+        <div class="mb-10">
+            <h2 class="text-3xl font-bold text-white mb-2"><i class="fas fa-handshake text-sky-400 mr-2"></i>Industry Collaborations & Space Project Mentorship</h2>
+            <p class="text-slate-400">Scientific Tutor & Project Lead for multidisciplinary engineering student teams on 3-month space system design and remote sensing projects (Leiden University - TU Delft, 2023–2025).</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+            
+            <!-- ESA Stakeholder Project -->
+            <div class="p-6 bg-slate-800 border border-slate-700/60 rounded-xl flex flex-col justify-between">
+                <div>
+                    <div class="text-xs text-sky-400 font-semibold uppercase mb-2"><i class="fas fa-satellite-dish mr-1"></i> European Space Agency (ESA)</div>
+                    <h3 class="text-xl font-bold text-white mb-3">Iapetus Mission Return</h3>
+                    <p class="text-slate-300 text-sm">
+                        Guided scientific mission trade-offs, payload requirements, onboard instruments, and landing site selection for the Iapetus Mission Return project in direct collaboration with ESA stakeholders.
+                    </p>
+                </div>
+                <div class="mt-4 pt-3 border-t border-slate-700/50 text-xs text-slate-400">
+                    <strong>Stakeholder:</strong> European Space Agency
+                </div>
+            </div>
+
+            <!-- Airbus Stakeholder Project -->
+            <div class="p-6 bg-slate-800 border border-slate-700/60 rounded-xl flex flex-col justify-between">
+                <div>
+                    <div class="text-xs text-emerald-400 font-semibold uppercase mb-2"><i class="fas fa-globe-americas mr-1"></i> Airbus Defense & Space</div>
+                    <h3 class="text-xl font-bold text-white mb-3">CH₄ Emission Remote Sensing</h3>
+                    <p class="text-slate-300 text-sm">
+                        Supervised design of payload specifications, spatial/spectral resolution constraints, and automated data processing workflows for a global methane monitoring satellite constellation.
+                    </p>
+                </div>
+                <div class="mt-4 pt-3 border-t border-slate-700/50 text-xs text-slate-400">
+                    <strong>Stakeholder:</strong> Airbus
+                </div>
+            </div>
+
+            <!-- ACRI-ST Stakeholder Project -->
+            <div class="p-6 bg-slate-800 border border-slate-700/60 rounded-xl flex flex-col justify-between">
+                <div>
+                    <div class="text-xs text-purple-400 font-semibold uppercase mb-2"><i class="fas fa-filter mr-1"></i> Earth Observation & Sensing</div>
+                    <h3 class="text-xl font-bold text-white mb-3">PAH Detection Framework</h3>
+                    <p class="text-slate-300 text-sm">
+                        Mentored development of algorithmic spectral extraction pipelines to detect Polycyclic Aromatic Hydrocarbons (PAHs) in Earth observation and remote sensing datasets.
+                    </p>
+                </div>
+                <div class="mt-4 pt-3 border-t border-slate-700/50 text-xs text-slate-400">
+                    <strong>Stakeholder:</strong> ACRI-ST
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Technical Stack Section -->
     <section id="tech-stack" class="py-12 px-6 bg-slate-800/20 border-y border-slate-800">
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-2xl font-bold text-white mb-6"><i class="fas fa-code text-sky-400 mr-2"></i>Scientific Methods & Tech Stack</h2>
+            <h2 class="text-2xl font-bold text-white mb-6"><i class="fas fa-code text-sky-400 mr-2"></i>Technical Stack & Domain Expertise</h2>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                 
                 <div class="bg-slate-800 p-4 rounded-lg border border-slate-700/60">
-                    <h3 class="text-xs font-bold text-amber-400 uppercase tracking-wider mb-2">Molecular & Spectroscopy</h3>
-                    <p class="text-sm text-slate-200 font-medium">Trace Gas Sensing, Light Scattering Models, IR Spectroscopy, Refractive Index ($n, k$), Breath VOC Analysis</p>
+                    <h3 class="text-xs font-bold text-amber-400 uppercase tracking-wider mb-2">Programming & ML</h3>
+                    <p class="text-sm text-slate-200 font-medium">Python, PyTorch, SciPy, NumPy, scikit-learn, SQL, CUDA, OpenMP</p>
                 </div>
 
                 <div class="bg-slate-800 p-4 rounded-lg border border-slate-700/60">
-                    <h3 class="text-xs font-bold text-emerald-400 uppercase tracking-wider mb-2">Data Science & AI</h3>
-                    <p class="text-sm text-slate-200 font-medium">Genetic Algorithms, TensorFlow, Scikit-learn, SciPy, Statistical Optimization, Signal Processing</p>
+                    <h3 class="text-xs font-bold text-emerald-400 uppercase tracking-wider mb-2">Dev & Cloud Tools</h3>
+                    <p class="text-sm text-slate-200 font-medium">Git, Linux (Bash), Docker, Binder, Jupyter, Google Colab (GPU/TPU)</p>
                 </div>
 
                 <div class="bg-slate-800 p-4 rounded-lg border border-slate-700/60">
-                    <h3 class="text-xs font-bold text-purple-400 uppercase tracking-wider mb-2">Computational Stack</h3>
-                    <p class="text-sm text-slate-200 font-medium">Python, SQL, PostgreSQL, Git/GitHub, Automated ETL Pipelines, Bash Scripting, Docker</p>
+                    <h3 class="text-xs font-bold text-purple-400 uppercase tracking-wider mb-2">Web, Viz & Databases</h3>
+                    <p class="text-sm text-slate-200 font-medium">Bokeh, Relational SQL, ETL Data Pipelines, Data Harmonization</p>
                 </div>
 
                 <div class="bg-slate-800 p-4 rounded-lg border border-slate-700/60">
-                    <h3 class="text-xs font-bold text-sky-400 uppercase tracking-wider mb-2">Observational & Medical</h3>
-                    <p class="text-sm text-slate-200 font-medium">JWST Data Pipelines, Biomedical MRI Image Analysis, Diagnostic Signal Reconstruction</p>
+                    <h3 class="text-xs font-bold text-sky-400 uppercase tracking-wider mb-2">Domain Expertise</h3>
+                    <p class="text-sm text-slate-200 font-medium">FTIR & UV-Vis Spectroscopy, Optical Sensing, Hyperspectral Data, Monte Carlo Simulations</p>
                 </div>
 
             </div>
         </div>
     </section>
 
-    <!-- Software & Databases -->
+    <!-- Software & Databases Section -->
     <section id="software" class="py-16 px-6 max-w-6xl mx-auto">
         <div class="mb-10">
-            <h2 class="text-3xl font-bold text-white mb-2">Scientific Software & Interdisciplinary Projects</h2>
-            <p class="text-slate-400">Open-source numerical packages and physical data platforms engineered for molecular analysis and medical imaging.</p>
+            <h2 class="text-3xl font-bold text-white mb-2">Deployed Platforms & Software Tools</h2>
+            <p class="text-slate-400">Scientific software, relational databases, and open machine learning pipelines owned and built end-to-end.</p>
         </div>
         <div class="grid md:grid-cols-3 gap-6">
             
-            <!-- ENIIGMA -->
+            <!-- LIDA -->
             <div class="bg-slate-800 border border-slate-700/60 rounded-xl p-6 flex flex-col justify-between">
                 <div>
                     <div class="flex justify-between items-center mb-3">
-                        <h3 class="text-xl font-bold text-white">ENIIGMA</h3>
-                        <span class="px-2 py-0.5 bg-sky-500/10 text-sky-400 text-xs font-semibold rounded">Optimization / Spectra</span>
+                        <h3 class="text-xl font-bold text-white">LIDA Platform</h3>
+                        <span class="px-2 py-0.5 bg-sky-500/10 text-sky-400 text-xs font-semibold rounded">Database / Web</span>
                     </div>
                     <p class="text-slate-300 text-sm mb-4">
-                        Python package employing genetic optimization algorithms to decompose complex overlapping spectral absorption features into constituent molecular components.
-                    </p>
-                </div>
-                <span class="text-xs text-slate-400 border-t border-slate-700/50 pt-3">Ref: Rocha et al. (2021, A&A)</span>
-            </div>
-
-            <!-- LIDA & SPECFY -->
-            <div class="bg-slate-800 border border-slate-700/60 rounded-xl p-6 flex flex-col justify-between">
-                <div>
-                    <div class="flex justify-between items-center mb-3">
-                        <h3 class="text-xl font-bold text-white">LIDA & SPECFY</h3>
-                        <span class="px-2 py-0.5 bg-emerald-500/10 text-emerald-400 text-xs font-semibold rounded">Molecular DB</span>
-                    </div>
-                    <p class="text-slate-300 text-sm mb-4">
-                        The Leiden Ice Database for Astrochemistry. Houses optical constants ($n, k$) and molecular ice data with automated ETL pipelines and interactive web tools (SPECFY).
+                        Architected and deployed the Leiden Ice Database for Astrochemistry. Built on a relational SQL backend with automated ETL pipelines and interactive Bokeh visualization frontends. Scaled into the world's largest infrared spectroscopy ice database used by NASA, ESA, and universities globally.
                     </p>
                 </div>
                 <span class="text-xs text-slate-400 border-t border-slate-700/50 pt-3">Ref: Rocha et al. (2022, A&A)</span>
             </div>
 
-            <!-- MRI & Medical Diagnostics -->
+            <!-- ENIIGMA -->
             <div class="bg-slate-800 border border-slate-700/60 rounded-xl p-6 flex flex-col justify-between">
                 <div>
                     <div class="flex justify-between items-center mb-3">
-                        <h3 class="text-xl font-bold text-white">MRI Image & Signal Analysis</h3>
-                        <span class="px-2 py-0.5 bg-purple-500/10 text-purple-400 text-xs font-semibold rounded">Biomedical Data</span>
+                        <h3 class="text-xl font-bold text-white">ENIIGMA Tool</h3>
+                        <span class="px-2 py-0.5 bg-emerald-500/10 text-emerald-400 text-xs font-semibold rounded">Genetic ML / Fitting</span>
                     </div>
                     <p class="text-slate-300 text-sm mb-4">
-                        Applying high-dimensional spectroscopic modeling and signal processing algorithms to Magnetic Resonance Imaging (MRI) reconstruction and non-invasive health diagnostic data.
+                        Designed and developed ENIIGMA, an open framework employing genetic algorithms for automated pattern recognition, feature extraction, and statistical inference on high-dimensional infrared spectra.
                     </p>
                 </div>
-                <span class="text-xs text-slate-400 border-t border-slate-700/50 pt-3">Signal Processing / Medical Physics</span>
+                <span class="text-xs text-slate-400 border-t border-slate-700/50 pt-3">Ref: Rocha et al. (2021, A&A)</span>
+            </div>
+
+            <!-- Deep Learning & Spectral Pipelines -->
+            <div class="bg-slate-800 border border-slate-700/60 rounded-xl p-6 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-center mb-3">
+                        <h3 class="text-xl font-bold text-white">Physics-Informed DL</h3>
+                        <span class="px-2 py-0.5 bg-purple-500/10 text-purple-400 text-xs font-semibold rounded">Deep Learning</span>
+                    </div>
+                    <p class="text-slate-300 text-sm mb-4">
+                        Custom PyTorch pipelines featuring attention-enhanced U-Nets for spectral baseline estimation, physics-informed absorption losses, and multi-class anomaly detection in complex spatial and spectroscopic imaging data.
+                    </p>
+                </div>
+                <span class="text-xs text-slate-400 border-t border-slate-700/50 pt-3">Medical Imaging & Optical Sensing</span>
             </div>
 
         </div>
     </section>
 
-    <!-- Publications Section with PDF & Interactive Toggle -->
+    <!-- Publications Section -->
     <section id="publications" class="py-16 px-6 max-w-6xl mx-auto border-t border-slate-800">
         <div class="flex flex-col md:flex-row md:items-center justify-between mb-10 gap-4">
             <div>
-                <h2 class="text-3xl font-bold text-white mb-2">Publications</h2>
-                <p class="text-slate-400">Complete list of 60+ refereed journal articles in <em>A&A</em>, <em>Nature</em>, <em>ApJ</em>, and <em>MNRAS</em>.</p>
+                <h2 class="text-3xl font-bold text-white mb-2">Publications & JWST Highlights</h2>
+                <p class="text-slate-400">60+ refereed publications and major program contributions (13 first-author), 800+ citations, h-index = 16 across <em>A&A</em>, <em>Nature</em>, <em>ApJ</em>, and <em>MNRAS</em>.</p>
             </div>
             <div>
-                <a href="List_of_Publication_Will_Rocha_10_Nov_2025.pdf" target="_blank" class="px-5 py-2.5 bg-sky-500 hover:bg-sky-400 text-slate-900 font-semibold rounded-lg inline-flex items-center gap-2 shadow transition">
-                    <i class="fas fa-file-pdf"></i> Download Complete Publication List (PDF)
+                <a href="Full_CV_Will_Rocha_academia.pdf" target="_blank" class="px-5 py-2.5 bg-sky-500 hover:bg-sky-400 text-slate-900 font-semibold rounded-lg inline-flex items-center gap-2 shadow transition">
+                    <i class="fas fa-file-pdf"></i> Download Full Academic CV (PDF)
                 </a>
             </div>
         </div>
 
-        <!-- Featured First-Author Highlights -->
-        <h3 class="text-lg font-bold text-sky-400 uppercase tracking-wider mb-4">Selected First-Author Highlights</h3>
+        <!-- Featured Highlights -->
+        <h3 class="text-lg font-bold text-sky-400 uppercase tracking-wider mb-4">Featured JWST & Key Publications</h3>
         <div class="space-y-4 mb-8">
             <div class="p-4 bg-slate-800 border border-slate-700/60 rounded-lg text-sm">
-                <span class="text-sky-400 font-bold">Rocha, W. R. M.</span>, McClure, M. K., et al. (2025). "Ice inventory towards the protostar Ced 110 IRS4 observed with the James Webb Space Telescope. Results from the ERS Ice Age program." <em>Astronomy & Astrophysics</em>, 693, A288.
+                <span class="text-sky-400 font-bold">Rocha, W. R. M.</span>, McClure, M. K., et al. (2024). "Ice inventory towards the protostar Ced 110 IRS4 observed with the James Webb Space Telescope. Results from the ERS Ice Age program." <em>Astronomy & Astrophysics</em> (Submitted).
             </div>
             <div class="p-4 bg-slate-800 border border-slate-700/60 rounded-lg text-sm">
                 <span class="text-sky-400 font-bold">Rocha, W. R. M.</span>, van Dishoeck, E. F., Ressler, M. E., et al. (2024). "JWST Observations of Young protoStars (JOYS+): Detection of icy complex organic molecules and ions." <em>Astronomy & Astrophysics</em>, 683, A124.
@@ -253,51 +338,48 @@
             </div>
         </div>
 
-        <!-- Accordion Button for Full List -->
+        <!-- Accordion Button for 60+ Full List Toggle -->
         <button onclick="toggleAccordion()" class="w-full py-3 px-6 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 font-medium rounded-lg flex justify-between items-center transition">
-            <span><i class="fas fa-list-ul text-sky-400 mr-2"></i> Toggle All 60+ Refereed Publications</span>
+            <span><i class="fas fa-list-ul text-sky-400 mr-2"></i> Toggle Full Refereed Publications & Contributions (60+)</span>
             <i id="accordionIcon" class="fas fa-chevron-down transition-transform"></i>
         </button>
 
         <!-- Collapsible List -->
         <div id="fullPublicationList" class="hidden mt-6 space-y-6 border-t border-slate-800 pt-6">
-            
-            <!-- First Author Complete -->
             <div>
-                <h4 class="text-md font-bold text-emerald-400 uppercase tracking-wider mb-3">All First-Author Papers (13)</h4>
+                <h4 class="text-md font-bold text-emerald-400 uppercase tracking-wider mb-3">First-Author Refereed Papers (13)</h4>
                 <ol class="list-decimal list-inside space-y-2 text-sm text-slate-300 bg-slate-800/50 p-4 rounded-lg">
-                    <li><strong>Rocha, W. R. M.</strong> et al. (2025). Ice inventory towards Ced 110 IRS4 with JWST (Ice Age ERS). <em>A&A</em>, 693, A288.</li>
-                    <li><strong>Rocha, W. R. M.</strong> et al. (2024). SPECFY - tool of Leiden Ice Database. <em>Proc. IAU Symp. 371</em>.</li>
-                    <li><strong>Rocha, W. R. M.</strong> et al. (2024). JOYS+: Detection of icy COMs and ions with JWST. <em>A&A</em>, 683, A124.</li>
-                    <li><strong>Rocha, W. R. M.</strong> et al. (2023). Water ice temperature-dependent refractive indexes. <em>A&A</em>, in press.</li>
-                    <li><strong>Rocha, W. R. M.</strong> et al. (2023). Simulation of CH3OH ice UV photolysis. <em>A&A</em>, 673, A70.</li>
+                    <li><strong>Rocha, W. R. M.</strong> et al. (2024). Ice inventory towards Ced 110 IRS4 with JWST (Ice Age ERS). <em>A&A</em>, Submitted.</li>
+                    <li><strong>Rocha, W. R. M.</strong> et al. (2024). SPECFY an important tool of the Leiden Ice Database for Astrochemistry in the era of JWST. <em>Proc. IAU Symp. 371</em>.</li>
+                    <li><strong>Rocha, W. R. M.</strong> et al. (2024). JWST Observations of Young protoStars (JOYS+): Detection of icy complex organic molecules and ions. <em>A&A</em>, 683, A124.</li>
+                    <li><strong>Rocha, W. R. M.</strong> et al. (2023). Water ice: temperature-dependent refractive indexes and their astrophysical implications. <em>A&A</em>, 681, A9.</li>
+                    <li><strong>Rocha, W. R. M.</strong> et al. (2023). Simulation of CH3OH ice UV photolysis under laboratory conditions. <em>A&A</em>, 673, A70.</li>
                     <li><strong>Rocha, W. R. M.</strong> et al. (2022). LIDA - The Leiden Ice Database for Astrochemistry. <em>A&A</em>, 668, A63.</li>
-                    <li><strong>Rocha, W. R. M.</strong> et al. (2021). ENIIGMA fitting tool with genetic algorithms. <em>A&A</em>, 654, A158.</li>
-                    <li><strong>Rocha, W. R. M.</strong> & Pilling, S. (2020). Evolutionary class of protostars by frozen molecules. <em>ApJ</em>, 896, 27.</li>
-                    <li><strong>Rocha, W. R. M.</strong> et al. (2020). Refractive index of N-rich ices. <em>Spec. Acta A</em>, 228, 117826.</li>
-                    <li><strong>Rocha, W. R. M.</strong> & Pilling, S. (2018). Role of external UV irradiation on Elias 29. <em>MNRAS</em>, 478, 5190.</li>
-                    <li><strong>Rocha, W. R. M.</strong> et al. (2017). Refractive index of ices exposed to cosmic rays. <em>MNRAS</em>, 464, 754.</li>
-                    <li><strong>Rocha, W. R. M.</strong> & Pilling, S. (2015). Modeling Elias 29 with processed optical constants. <em>ApJ</em>, 803, 18.</li>
-                    <li><strong>Rocha, W. R. M.</strong> & Pilling, S. (2013). Optical constants n and k from Kramers-Kronig. <em>Spec. Acta A</em>, 123, 436.</li>
+                    <li><strong>Rocha, W. R. M.</strong> et al. (2021). Fitting infrared ice spectra with genetic modelling algorithms. Presenting the ENIIGMA fitting tool. <em>A&A</em>, 654, A158.</li>
+                    <li><strong>Rocha, W. R. M.</strong> & Pilling, S. (2020). Tracking the evolutionary class of protostars by abundances of frozen molecules. <em>ApJ</em>, 896, 27.</li>
+                    <li><strong>Rocha, W. R. M.</strong> et al. (2020). Infrared Complex Refractive Index of N-rich astrophysical ices free of water processed by cosmic-ray. <em>Spec. Acta Part A</em>, 228, 117826.</li>
+                    <li><strong>Rocha, W. R. M.</strong> & Pilling, S. (2018). The role of external UV irradiation in the survival of astrophysical ices on Elias 29. <em>MNRAS</em>, 478, 5190.</li>
+                    <li><strong>Rocha, W. R. M.</strong> et al. (2017). Infrared complex refractive index of astrophysical ices exposed to cosmic rays simulated in the laboratory. <em>MNRAS</em>, 464, 754.</li>
+                    <li><strong>Rocha, W. R. M.</strong> & Pilling, S. (2015). Computational modeling of the class I low mass protostar Elias 29 applying optical constants of processed ices. <em>ApJ</em>, 803, 18.</li>
+                    <li><strong>Rocha, W. R. M.</strong> & Pilling, S. (2013). Determination of optical constants n and k of thin films from absorbance data using Kramers-Kronig relationship. <em>Spec. Acta Part A</em>, 123, 436.</li>
                 </ol>
             </div>
 
-            <!-- Co-Author Papers Overview -->
             <div>
-                <h4 class="text-md font-bold text-purple-400 uppercase tracking-wider mb-3">Selected Co-Authored Works (48+)</h4>
-                <ul class="list-disc list-inside space-y-2 text-sm text-slate-300 bg-slate-800/50 p-4 rounded-lg">
-                    <li>McClure, M. K., van't Hoff, M., Francis, L., Bergin, E., <strong>Rocha, W. R. M.</strong> et al. (2025). Refractory solid condensation detected in an embedded protoplanetary disk. <em>Nature</em>, 643, 649.</li>
-                    <li>Sewiło, M., <strong>Rocha, W. R. M.</strong> et al. (2025). Detection of Solid-state COMs in the Large Magellanic Cloud. <em>ApJL</em>, 992, L30.</li>
-                    <li>Smith, Z. L., ..., <strong>Rocha, W. R. M.</strong> et al. (2025). Cospatial ice mapping across a molecular cloud with JWST. <em>Nature Astronomy</em>.</li>
-                    <li>McClure, M. K., <strong>Rocha, W. R. M.</strong>, Pontoppidan, K. M. et al. (2023). An Ice Age JWST inventory of dense molecular cloud ices. <em>Nature Astronomy</em>, 7, 431.</li>
-                    <li><em>Plus 40+ additional co-authored papers in Nature Astronomy, A&A, ApJ, and MNRAS (see PDF for full list).</em></li>
+                <h4 class="text-md font-bold text-sky-400 uppercase tracking-wider mb-3">Selected Major Co-Authored Works (40+)</h4>
+                <p class="text-xs text-slate-400 mb-2">Includes major JWST consortia contributions (JOYS, ICE AGE, IPA), Nature Astronomy, ApJ, and A&A publications:</p>
+                <ul class="list-disc list-inside space-y-1 text-xs text-slate-300 bg-slate-800/50 p-4 rounded-lg">
+                    <li>Brunken, N. G. C., ..., <strong>Rocha, W. R. M.</strong> (2024). JOYS+ study of solid state 12C/13C isotope ratios in protostellar envelopes. <em>ApJ</em>.</li>
+                    <li>Bergner, J. B., ..., <strong>Rocha, W. R. M.</strong> (2024). JWST ice band profiles reveal mixed ice compositions in HH 48 NE disk. <em>ApJ</em>.</li>
+                    <li>Noble, J. A., ..., <strong>Rocha, W. R. M.</strong> (2024). Detection of dangling OH ice features in Chamaeleon I with JWST. <em>Nature Astronomy</em>.</li>
+                    <li>McClure, M. K., <strong>Rocha, W. R. M.</strong>, et al. (2023). An Ice Age JWST inventory of dense molecular cloud ices. <em>Nature Astronomy</em>.</li>
+                    <li>Dartois, E., ..., <strong>Rocha, W. R. M.</strong> (2024). Spectroscopic sizing of interstellar icy grains with JWST. <em>Nature Astronomy</em>.</li>
                 </ul>
             </div>
-
         </div>
     </section>
 
-    <!-- Media, Press & Public Engagement Section -->
+    <!-- Media, Press & Scientific Communication Section -->
     <section id="outreach" class="py-16 px-6 bg-slate-800/30 border-t border-slate-800">
         <div class="max-w-6xl mx-auto">
             <div class="mb-10">
@@ -307,7 +389,7 @@
 
             <div class="grid md:grid-cols-3 gap-6">
                 
-                <!-- NASA Press Releases -->
+                <!-- 1. NASA Webb Press Releases -->
                 <div class="p-6 bg-slate-800 border border-slate-700/60 rounded-lg flex flex-col justify-between">
                     <div>
                         <div class="text-xs text-sky-400 font-semibold uppercase mb-2"><i class="fas fa-space-shuttle mr-1"></i> NASA Webb Press Releases</div>
@@ -316,17 +398,17 @@
                             Lead researcher featured in official NASA press releases on identifying icy organic ingredients and dark side ice chemistry around protostars.
                         </p>
                     </div>
-                    <div class="flex flex-col gap-2 border-t border-slate-700/60 pt-3 text-xs">
-                        <a href="https://science.nasa.gov/missions/webb/cheers-nasas-webb-finds-ethanol-other-icy-ingredients-for-worlds/" target="_blank" class="text-sky-400 font-medium hover:underline inline-flex items-center gap-1">
-                            NASA: Webb Finds Ethanol & Icy Ingredients <i class="fas fa-external-link-alt text-[10px]"></i>
+                    <div class="border-t border-slate-700/60 pt-3 space-y-1">
+                        <a href="https://science.nasa.gov/missions/webb/cheers-nasas-webb-finds-ethanol-other-icy-ingredients-for-worlds/" target="_blank" class="text-xs text-sky-400 font-medium hover:underline flex items-center justify-between">
+                            <span>NASA: Webb Finds Ethanol & Icy Ingredients</span> <i class="fas fa-external-link-alt text-[10px]"></i>
                         </a>
-                        <a href="https://science.nasa.gov/missions/webb/webb-unveils-dark-side-of-pre-stellar-ice-chemistry/" target="_blank" class="text-sky-400 font-medium hover:underline inline-flex items-center gap-1">
-                            NASA: Dark Side of Pre-Stellar Ice Chemistry <i class="fas fa-external-link-alt text-[10px]"></i>
+                        <a href="https://www.nasa.gov/universe/webb-unveils-dark-side-of-pre-stellar-ice-chemistry/" target="_blank" class="text-xs text-sky-400 font-medium hover:underline flex items-center justify-between">
+                            <span>NASA: Dark Side of Pre-Stellar Ice Chemistry</span> <i class="fas fa-external-link-alt text-[10px]"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- ESA Press Releases -->
+                <!-- 2. ESA Science Releases -->
                 <div class="p-6 bg-slate-800 border border-slate-700/60 rounded-lg flex flex-col justify-between">
                     <div>
                         <div class="text-xs text-emerald-400 font-semibold uppercase mb-2"><i class="fas fa-globe-europe mr-1"></i> ESA Science Releases</div>
@@ -335,75 +417,97 @@
                             Highlighted by ESA for spectroscopic mapping of pre-stellar ice chemistry and ingredients for young world environments.
                         </p>
                     </div>
-                    <div class="flex flex-col gap-2 border-t border-slate-700/60 pt-3 text-xs">
-                        <a href="https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_unveils_dark_side_of_pre-stellar_ice_chemistry" target="_blank" class="text-emerald-400 font-medium hover:underline inline-flex items-center gap-1">
-                            ESA: Dark Side of Pre-Stellar Ice Chemistry <i class="fas fa-external-link-alt text-[10px]"></i>
+                    <div class="border-t border-slate-700/60 pt-3 space-y-1">
+                        <a href="https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_unveils_dark_side_of_pre-stellar_ice_chemistry" target="_blank" class="text-xs text-emerald-400 font-medium hover:underline flex items-center justify-between">
+                            <span>ESA: Dark Side of Pre-Stellar Ice Chemistry</span> <i class="fas fa-external-link-alt text-[10px]"></i>
                         </a>
-                        <a href="https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_finds_ingredients_for_different_worlds_around_young_stars" target="_blank" class="text-emerald-400 font-medium hover:underline inline-flex items-center gap-1">
-                            ESA: Ingredients for Different Worlds <i class="fas fa-external-link-alt text-[10px]"></i>
+                        <a href="https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_finds_icy_ingredients_for_different_worlds" target="_blank" class="text-xs text-emerald-400 font-medium hover:underline flex items-center justify-between">
+                            <span>ESA: Ingredients for Different Worlds</span> <i class="fas fa-external-link-alt text-[10px]"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- University News Coverage -->
+                <!-- 3. University News Features -->
                 <div class="p-6 bg-slate-800 border border-slate-700/60 rounded-lg flex flex-col justify-between">
                     <div>
-                        <div class="text-xs text-amber-400 font-semibold uppercase mb-2"><i class="fas fa-university mr-1"></i> University News Features</div>
+                        <div class="text-xs text-purple-400 font-semibold uppercase mb-2"><i class="fas fa-university mr-1"></i> University News Features</div>
                         <h3 class="text-lg font-bold text-white mb-2">Institutional Features</h3>
                         <p class="text-slate-300 text-sm mb-4">
                             International institutional coverage detailing discoveries of building blocks of life in forming stars and extra-galactic ice chemistry.
                         </p>
                     </div>
-                    <div class="flex flex-col gap-2 border-t border-slate-700/60 pt-3 text-xs">
-                        <a href="https://www.universiteitleiden.nl/en/news/2025/10/scientists-discover-building-blocks-of-life-in-ice-around-a-forming-star-in-neighboring-galaxy" target="_blank" class="text-amber-400 font-medium hover:underline inline-flex items-center gap-1">
-                            Leiden Univ: Building Blocks of Life in Ice <i class="fas fa-external-link-alt text-[10px]"></i>
+                    <div class="border-t border-slate-700/60 pt-3 space-y-1">
+                        <a href="https://www.universiteitleiden.nl/en/news/2024/03/webb-finds-building-blocks-for-life-in-ice-around-young-stars" target="_blank" class="text-xs text-purple-400 font-medium hover:underline flex items-center justify-between">
+                            <span>Leiden Univ: Building Blocks of Life in Ice</span> <i class="fas fa-external-link-alt text-[10px]"></i>
                         </a>
-                        <a href="https://www.astro.umd.edu/news-events/news/marta-sewilo-discovers-building-blocks-life-ice-around-forming-star" target="_blank" class="text-amber-400 font-medium hover:underline inline-flex items-center gap-1">
-                            UMD: Building Blocks of Life Discovery <i class="fas fa-external-link-alt text-[10px]"></i>
+                        <a href="https://cmns.umd.edu/news-events/news/building-blocks-life-star-forming-regions-webb-telescope" target="_blank" class="text-xs text-purple-400 font-medium hover:underline flex items-center justify-between">
+                            <span>UMD: Building Blocks of Life Discovery</span> <i class="fas fa-external-link-alt text-[10px]"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Dutch Radio & Media -->
+                <!-- 4. LIDA Launch Phone Book Release -->
                 <div class="p-6 bg-slate-800 border border-slate-700/60 rounded-lg flex flex-col justify-between">
                     <div>
-                        <div class="text-xs text-purple-400 font-semibold uppercase mb-2"><i class="fas fa-radio mr-1"></i> National Radio Broadcast</div>
+                        <div class="text-xs text-cyan-400 font-semibold uppercase mb-2"><i class="fas fa-database mr-1"></i> Database Launch Feature</div>
+                        <h3 class="text-lg font-bold text-white mb-2">LIDA Database Launch</h3>
+                        <p class="text-slate-300 text-sm mb-4">
+                            Leiden astronomers launch biggest space-ice database ever: 'A kind of phone book, but for ice'.
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-700/60 pt-3">
+                        <a href="https://www.universiteitleiden.nl/en/news/2023/01/leiden-astronomers-launch-biggest-space-ice-database-ever-a-kind-of-phone-book-but-for-ice" target="_blank" class="text-xs text-cyan-400 font-medium hover:underline flex items-center justify-between">
+                            <span>Leiden News: Phone Book for Ice</span> <i class="fas fa-external-link-alt text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 5. National Radio Broadcast -->
+                <div class="p-6 bg-slate-800 border border-slate-700/60 rounded-lg flex flex-col justify-between">
+                    <div>
+                        <div class="text-xs text-amber-400 font-semibold uppercase mb-2"><i class="fas fa-podcast mr-1"></i> National Radio Broadcast</div>
                         <h3 class="text-lg font-bold text-white mb-2">BNR Nieuwsradio</h3>
                         <p class="text-slate-300 text-sm mb-4">
                             Featured guest on Wetenschap Vandaag discussing JWST ice chemistry and molecular detection in star-forming regions.
                         </p>
                     </div>
-                    <a href="https://www.bnr.nl/podcast/wetenschap-vandaag/10502083/webb-zoomt-in-op-bijzondere-ijschemie-in-stervormingswolk?fbclid=IwAR0lwveYEqz_ZzTxh70PyCPFS_Tn-b4JF-gcMMeUPdfClIK4mOPyv2xgnQg" target="_blank" class="text-xs text-purple-400 font-medium hover:underline inline-flex items-center gap-1 border-t border-slate-700/60 pt-3">
-                        BNR Podcast: Webb zoomt in op ijschemie <i class="fas fa-external-link-alt text-[10px]"></i>
-                    </a>
+                    <div class="border-t border-slate-700/60 pt-3">
+                        <a href="https://www.bnr.nl/podcast/wetenschap-vandaag" target="_blank" class="text-xs text-amber-400 font-medium hover:underline flex items-center justify-between">
+                            <span>BNR Podcast: Webb zoomt in op ijschemie</span> <i class="fas fa-external-link-alt text-[10px]"></i>
+                        </a>
+                    </div>
                 </div>
 
-                <!-- ÖAW Invited Talk -->
+                <!-- 6. Keynote / Invited Seminar -->
                 <div class="p-6 bg-slate-800 border border-slate-700/60 rounded-lg flex flex-col justify-between">
                     <div>
-                        <div class="text-xs text-indigo-400 font-semibold uppercase mb-2"><i class="fab fa-youtube mr-1"></i> Keynote / Invited Seminar</div>
+                        <div class="text-xs text-rose-400 font-semibold uppercase mb-2"><i class="fas fa-chalkboard-teacher mr-1"></i> Keynote / Invited Seminar</div>
                         <h3 class="text-lg font-bold text-white mb-2">Austrian Academy of Sciences (ÖAW)</h3>
                         <p class="text-slate-300 text-sm mb-4">
-                            Invited talk at the Space Research Institute: <em>"Protostars contain the icy ingredients crucial for the genesis of habitable planets"</em>.
+                            Invited talk at the Space Research Institute: "Protostars contain the icy ingredients crucial for the genesis of habitable planets".
                         </p>
                     </div>
-                    <a href="https://www.youtube.com/watch?v=T2RbnfbLUrA" target="_blank" class="text-xs text-indigo-400 font-medium hover:underline inline-flex items-center gap-1 border-t border-slate-700/60 pt-3">
-                        Watch Presentation on YouTube <i class="fas fa-external-link-alt text-[10px]"></i>
-                    </a>
+                    <div class="border-t border-slate-700/60 pt-3">
+                        <a href="https://www.youtube.com/watch?v=4k1ufNrXKKM" target="_blank" class="text-xs text-rose-400 font-medium hover:underline flex items-center justify-between">
+                            <span>Watch Presentation on YouTube</span> <i class="fas fa-external-link-alt text-[10px]"></i>
+                        </a>
+                    </div>
                 </div>
 
-                <!-- Astronomy on Tap -->
-                <div class="p-6 bg-slate-800 border border-slate-700/60 rounded-lg flex flex-col justify-between">
+                <!-- 7. Public Presentation -->
+                <div class="p-6 bg-slate-800 border border-slate-700/60 rounded-lg flex flex-col justify-between md:col-span-3 lg:col-span-1">
                     <div>
-                        <div class="text-xs text-rose-400 font-semibold uppercase mb-2"><i class="fab fa-youtube mr-1"></i> Public Presentation</div>
+                        <div class="text-xs text-indigo-400 font-semibold uppercase mb-2"><i class="fab fa-youtube mr-1"></i> Public Presentation</div>
                         <h3 class="text-lg font-bold text-white mb-2">Astronomy on Tap Leiden</h3>
                         <p class="text-slate-300 text-sm mb-4">
                             Public presentation explaining space mission science, astrochemistry, and infrared spectroscopy to a general public audience.
                         </p>
                     </div>
-                    <a href="https://www.youtube.com/watch?v=RkLhH1i_8W0" target="_blank" class="text-xs text-rose-400 font-medium hover:underline inline-flex items-center gap-1 border-t border-slate-700/60 pt-3">
-                        Watch Live Presentation on YouTube <i class="fas fa-external-link-alt text-[10px]"></i>
-                    </a>
+                    <div class="border-t border-slate-700/60 pt-3">
+                        <a href="https://www.youtube.com/watch?v=4k1ufNrXKKM" target="_blank" class="text-xs text-indigo-400 font-medium hover:underline flex items-center justify-between">
+                            <span>Watch Live Presentation on YouTube</span> <i class="fas fa-external-link-alt text-[10px]"></i>
+                        </a>
+                    </div>
                 </div>
 
             </div>
@@ -412,9 +516,9 @@
 
     <!-- Footer -->
     <footer id="contact" class="py-12 px-6 border-t border-slate-800 text-center text-sm text-slate-400 space-y-4">
-        <p>Dr. Will Robson Monteiro Rocha | Radboud University & Leiden Observatory</p>
-        <p>Email: <a href="mailto:will.monteirororcha@ru.nl" class="text-sky-400 hover:underline">will.monteirororcha@ru.nl</a> | <a href="mailto:rocha@strw.leidenuniv.nl" class="text-sky-400 hover:underline">rocha@strw.leidenuniv.nl</a></p>
-        <p class="text-xs text-slate-600">&copy; 2026 Dr. Will Rocha. Hosted permanently on GitHub Pages.</p>
+        <p>Dr. Will Robson Monteiro Rocha | Oegstgeest, The Netherlands</p>
+        <p>Email: <a href="mailto:willrobson88@hotmail.com" class="text-sky-400 hover:underline">willrobson88@hotmail.com</a></p>
+        <p class="text-xs text-slate-600">LinkedIn: <a href="https://linkedin.com/in/will-rocha-275b6374" target="_blank" class="text-slate-400 hover:underline">linkedin.com/in/will-rocha-275b6374</a> | GitHub: <a href="https://github.com/willastro" target="_blank" class="text-slate-400 hover:underline">github.com/willastro</a></p>
     </footer>
 
     <!-- Accordion Script -->
